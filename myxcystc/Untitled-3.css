@@ -1,0 +1,102 @@
+/* 重置和通用样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('image/4e0b15a1dc6dbb945c86a921d02bbb5c.jpg');
+    background-color: #8E7576;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #424683;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 固定返回首页按钮 */
+.back-to-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.back-to-home a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-home a:hover {
+    background-color: #0056b3;
+}
+
+/* 容器样式 */
+.wrapin {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* 标题样式 */
+.bar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* 大学回忆样式 */
+.university-dream {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    gap: 20px; /* 调整图片之间的间隔 */
+    padding: 20px;
+    align-items: start;
+}
+
+.university-dream .memory-photo {
+    background-color: rgba(255, 255, 255, 0.8); /* 背景颜色 */
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.university-dream .memory-photo img {
+    width: 100%; /* 宽度自动适应容器 */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px; /* 图片和文字之间的间隔 */
+}
+
+.university-dream .memory-photo p {
+    font-size: 18px; /* 增加字体大小 */
+    color: #333;
+    margin: 0;
+    padding: 10px 0; /* 上下内边距 */
+    font-weight: bold; /* 加粗字体 */
+    font-family: 'Georgia', serif; /* 使用Georgia字体，更具特色 */
+}

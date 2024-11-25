@@ -1,0 +1,131 @@
+
+/* 通用类 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* 边框盒模型 */
+}
+
+body {		
+    min-width: 1000px;
+    margin: 0 auto;
+    font-size: 14px; /* 增加字体大小 */
+    background: url(../images/bg.png) center top no-repeat fixed;
+    color: #333;
+    font-family: 'Arial', sans-serif; /* 使用Arial字体 */
+    text-align: justify;
+    padding: 40px; /* 增加内边距 */
+}
+
+h1, h2, h3, h4 {	
+    font-weight: 500;	
+}
+、
+.Name {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center; /* 文本居中 */
+}
+
+
+.tx img {
+    width: 150px; /* 设置图片宽度 */
+    height: 150px; /* 设置图片高度 */
+    border-radius: 50%; /* 圆形图片 */
+    object-fit: cover;
+    margin: 20px auto; /* 居中显示 */
+    display: block; /* 防止图片下方出现空白 */
+}
+
+
+img {
+    border: none;	
+}
+
+a {
+    cursor: pointer;
+    color: #000;
+    text-decoration: none; /* 取消下划线 */
+    outline: none;
+}
+
+a:hover {
+    color: #424683;	
+}
+
+ul {
+    list-style-type: none;	
+}
+
+div.clear {
+    clear: both;	
+}
+
+/* wrapin 主体容器宽度 */
+.wrapin {
+    display: flex; /* 使用Flexbox布局 */
+    justify-content: space-between; /* 子元素之间的间距 */
+    align-items: flex-start; /* 垂直对齐方式 */
+    width: 100%;
+    max-width: 1200px; /* 最大宽度 */
+    margin: 0 auto;
+    padding: 40px; /* 增加内边距 */
+}
+
+/* 菜单样式 */
+.menu {
+    width: 200px; 
+    text-align: center; 
+    padding-bottom: 40px;
+}
+
+.menu a {
+    display: block; 
+    padding: 10px 20px; /* 增加内边距 */
+    margin-bottom: 20px; /* 增加间距 */
+    background: rgba(0, 0, 0, 0.5); 
+    font-size: 18px; 
+    color: #666;
+    border-radius: 5px; /* 添加圆角 */
+    transition: background 0.3s ease; /* 过渡效果 */
+}
+
+.menu a:hover {
+    background: rgba(0, 0, 0, 0.8); 
+}
+
+/* 个人介绍样式 */
+.index_word1 {
+    background-color: #FFF; 
+    border-radius: 15px; /* 增加圆角 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* 增加阴影 */
+    padding: 40px; /* 增加内边距 */
+    margin: 0 20px; /* 增加左右边距 */
+    flex: 1;
+    display: flex; /* 使用Flexbox布局 */
+    flex-direction: row; /* 横向排列 */
+    align-items: center; /* 垂直居中对齐 */
+}
+
+/* 个人信息样式 */
+.personal {
+    padding: 20px; 
+    border-left: 4px solid #6699CC; /* 增加边框 */
+    margin-bottom: 20px;
+}
+
+.index_word1 h3 {
+    font-size: 24px; 
+    color: #6699CC; /* 改变颜色 */
+}
+
+.index_word1 p {
+    font-size: 16px; 
+    margin: 20px 0; /* 增加间距 */
+    color: #666; /* 改变颜色 */
+}
+
+/* 其他样式保持不变 */

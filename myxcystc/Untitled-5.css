@@ -1,0 +1,142 @@
+/* Untitled-5.css */
+body {
+    font-family: 'Arial', sans-serif; /* 使用更通用的字体 */
+    background-image: url('image/4e0b15a1dc6dbb945c86a921d02bbb5c.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    color: #333;
+    background-color: #8E7576; /* 备用背景色 */
+}
+
+.wrapin {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tx img {
+    width: 150px; /* 设置图片宽度 */
+    height: 150px; /* 设置图片高度 */
+    border-radius: 50%; /* 圆形图片 */
+    object-fit: cover;
+    margin: 20px auto; /* 居中显示 */
+    display: block; /* 防止图片下方出现空白 */
+}
+.back-to-home {
+    position: fixed; /* 使用固定定位 */
+    top: 20px; /* 距离顶部20px */
+    left: 20px; /* 距离左侧20px */
+    z-index: 1000; /* 确保在页面最上层 */
+}
+
+.back-to-home a {
+    background-color: #007bff; /* 背景颜色 */
+    color: #fff; /* 文字颜色 */
+    padding: 10px 20px; /* 内边距 */
+    border-radius: 5px; /* 圆角 */
+    text-decoration: none; /* 去除下划线 */
+    font-weight: bold; /* 加粗字体 */
+}
+
+.back-to-home a:hover {
+    background-color: #0056b3; /* 鼠标悬浮时的背景颜色 */
+}
+
+.bar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.msg.pad {
+    padding: 20px;
+    border-left: 4px solid #007bff; /* 左侧边框 */
+}
+
+.clear {
+    clear: both;
+}
+
+.personal h4 {
+    color: #007bff;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23007bff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M21 11.028C20.995 6.97 19.686 3.174 17.344 0 15.35-2.828 12.77-4.695 10 0c-2.77 4.695-5.35 2.828-7.344 0C2.314 3.174 1.005 6.97.002 11.028.002 15.087 0 19.046 0 23h23c0-3.954 0-7.913 0-11.972zM9 18.035V15h6v3.035c0 2.206-1.794 4-4 4s-4-1.794-4-4zM14 13H7v-2h7v2z"/></svg>'); /* SVG 勾选标记 */
+    background-repeat: no-repeat;
+    background-position: 0 0.5em;
+    padding-left: 24px;
+    margin-bottom: 5px;
+}
+
+input[type="button"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #218838;
+}
+/* 库里几年变化的照片和介绍的样式 */
+.curry-evolution {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 调整图片之间的间隔 */
+}
+
+.curry-photo {
+    flex: 1;
+    max-width: calc(33.333% - 20px); /* 三个一组，减去间隔 */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 水平居中对齐 */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.curry-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px; /* 图片和文字之间的间隔 */
+}
+
+.curry-photo p {
+    margin: 0; /* 重置段落的外边距 */
+    font-size: 20px; /* 增加字体大小 */
+}
+
+/* 增加h4标签的字体大小 */
+h4 {
+    font-size: 20px; /* 您可以根据需要调整这个值 */
+    color: #007bff;
+    margin-top: 20px;
+}
+
+/* 增加基本信息和职业生涯部分的字体大小 */
+.personal p {
+    font-size: 18px; /* 增加字体大小 */
+}
+
+/* 增加个人荣誉部分的字体大小 */
+ul li {
+    font-size: 18px; /* 增加字体大小 */
+}
